@@ -1,0 +1,86 @@
+* {
+  box-sizing: border-box;
+}
+
+.bg-container {
+  min-height: 100vh;
+  background-color: #07080c;
+  background-size: cover;
+  padding: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.speedometer-container {
+  text-align: center;
+}
+
+.image {
+  width: 300px;
+  height: 125px;
+}
+
+.main-heading {
+  color: #ffffff;
+  font-family: 'Roboto';
+  font-style: italic;
+  font-size: 30px;
+  font-weight: 400;
+}
+
+.speed {
+  color: #ffffff;
+  font-family: 'Roboto';
+  font-size: 18px;
+}
+
+.condition {
+  color: #cbd5e1;
+  font-family: 'Roboto';
+  font-size: 10px;
+}
+
+@media screen and (min-width: 768px) {
+  .image {
+    width: 700px;
+    height: 300px;
+  }
+  .main-heading {
+    font-size: 44px;
+  }
+  .speed {
+    font-size: 20px;
+  }
+  .condition {
+    font-size: 14px;
+  }
+}
+
+.accelerate-button {
+  margin: 20px;
+  background-color: #0b69ff;
+  color: #ffffff;
+  padding: 8px;
+  border-style: none;
+  border-radius: 8px;
+  font-family: 'Roboto';
+  width: 100px;
+  cursor: pointer;
+  outline: none;
+}
+
+.brake-button {
+  margin: 20px;
+  background-color: transparent;
+  border-width: 2px;
+  color: #94a3b8;
+  border-style: solid;
+  border-color: #94a3b8;
+  border-radius: 8px;
+  font-family: 'Roboto';
+  padding: 6px;
+  width: 100px;
+  cursor: pointer;
+  outline: none;
+}
